@@ -62,7 +62,8 @@
     }
   }
   @media (max-width: 858px){
-    .checkbtn{
+    .checkbtn
+    {
       display: block;
     }
     ul{
