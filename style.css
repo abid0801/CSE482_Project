@@ -5,6 +5,9 @@
     list-style: none;
     box-sizing: border-box;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body{
     font-family: montserrat;
   }
@@ -62,6 +65,9 @@
     }
   }
   @media (max-width: 858px){
+    .navResponse{
+      z-index: -1;
+    }
     .checkbtn
     {
       display: block;
@@ -83,6 +89,7 @@
     }
     nav ul li a{
       font-size: 20px;
+      z-index: -1;
     }
     a:hover,a.active{
       background: none;
@@ -208,6 +215,10 @@
     width: 100%;
     font-size: 18px;
   }
+  .card :hover{
+    opacity: 0.7;
+
+  }
   
   .card button:hover {
     opacity: 0.7;
@@ -291,6 +302,20 @@ input[type=submit]:hover {
   border-radius: 20px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 70%;
+  margin: auto;
  
   justify-content: center;
+}
+
+.slideshow-container{
+  z-index: -1;
+  position: relative;
+
+}
+
+.cardholder{
+  z-index: -1;
+  position: relative;
+
 }
