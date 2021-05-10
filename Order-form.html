@@ -16,28 +16,32 @@
         <label class="logo">Tripfest</label>
         <ul>
           <li><a class="" href="index.html">Home</a></li>
-          <li><a class="active" href="feedback.html">Feedback</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
           <li><a href="Register.html">Sign Up</a></li>
           <li><a href="Sign-In.html">Log In</a></li>
-          <li><a href="Order-form.html">Book trip</a></li>
+          <li><a class ="active" href="Order-form.html">Book trip</a></li>
+
         </ul>
       </nav>
       <div class="container">
         <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-          <label for="email">email</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
-      
-          <label for="Feedback">Subject</label>
-          <textarea id="Feedback" name="Feedback" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
+          <li><label for="name">Name:</label></li>
+          <li><input type="text" id="name" name="name" /></li>
+          <li><input type="radio" id="male" name="msex" value="Male" /><span>Male</span></li>
+          <li><input type="radio" id="female" name="fsex" value="Female" /><span>Female</span></li>
+          <li><input type="radio" id="other" name="Osex" value="Other" /><span>Other</span></li>
+          <li><label for="contact">Contact number:</label></li>
+          <li><input type="text" id="contact" name="contact"></li>
+          <li><label for="email">Email:</label></li>
+          <li><input type="email" name="email"  /></li>
+          <li><input type="submit" name="submit" value="Submit" /></li>
+          <li><select name="Destination">
+            <option selected="" value="Default">(Please select a destination)</option>
+            <option value="Dl">Delhi,India</option>
+            <option value="Par">Paris,France</option>
+            <option value="Ven">Venice,Italy</option>
+            <option value="Kul">Kualalumpur, Malayshia</option>
+            </select></li>
       
         </form>
       </div>
