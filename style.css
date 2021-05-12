@@ -57,6 +57,36 @@ a:hover {
 #check {
   display: none;
 }
+
+.order-box-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.order-box {
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 30px;
+  /* -webkit-box-shadow: 10px 13px 25px 2px rgba(0, 0, 0, 0.71); */
+  box-shadow: 10px 13px 25px 2px rgba(0, 0, 0, 0.71);
+}
+
+.order-admin-button {
+  margin-top: 20px;
+}
+
+.admin-choices {
+  margin: auto;
+}
+
+.admin-text {
+  text-align: center;
+  cursor: pointer;
+}
+
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
